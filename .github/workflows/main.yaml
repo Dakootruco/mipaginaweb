@@ -19,4 +19,4 @@ jobs:
       - name: Desplegar a Surge.sh
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
-        run: surge --project ./ --domain TU_DOMINIO.surge.sh --token $SURGE_TOKEN
+        run: surge --project ./ --domain dacarloslora.surge.sh --token $SURGE_TOKEN
